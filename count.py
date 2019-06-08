@@ -1,0 +1,7 @@
+file=input("enter the nme of file:  ")
+f= open(file)
+data=f.read()
+lines=len(data.splitlines())
+words=len(data.split())
+print("the no. of lines is ",lines)
+print("the no. o fwords is",words) 
